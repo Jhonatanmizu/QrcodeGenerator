@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  font-size: 62.5%;
+}
 body{
   margin:auto;
   display:flex;
@@ -15,21 +18,27 @@ body{
   font-family:monospace,sans-serif;
   font-weight: 500;
   background-color:#2F2957;
-  width: 600px;
-  height: 600px;
+  width: 50rem;
+  height: 60rem;
   display:flex;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 1rem;
   justify-content:center;
   text-align: center;
-  margin-bottom: 2px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 .generator-container input{
-  width: 325px;
-  height:40px;
+  width: 32.5rem;
+  height:4rem;
   outline: none;
-  border: 2px solid #055997;
+  border: .2rem solid #055997;
 }
 .generator-container canvas{
-  margin-top: 10px;
+  margin-top: 1rem;
+}
+@media (max-width:60rem){
+  .generator-container{
+    width: 36rem;
+  }
 }
