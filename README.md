@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Qrcode Generator
+- in this project i create a simple qrcode generator using React and qrious library.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
