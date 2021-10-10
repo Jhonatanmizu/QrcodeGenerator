@@ -10,7 +10,6 @@ export default function Qrcode(props) {
     })
     setText(e.target.value)
     qr.value = text
-    console.log(qr.value);
   
     return qr.toDataURL()
   }
